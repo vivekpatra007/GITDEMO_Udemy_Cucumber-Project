@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 665189093,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Backkgound details are available",
+            "match": {
+              "location": "Background.backkgound_details_are_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53130,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User uses the Backkgound details",
+            "match": {
+              "location": "Background.user_uses_the_backkgound_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 484810,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Background is executed",
+            "match": {
+              "location": "Background.background_is_executed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 496281,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Successful Login of Application page",
+        "description": "",
+        "id": "application-sign-up;successful-login-of-application-page",
+        "after": [
+          {
+            "result": {
+              "duration": 478169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterevalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 406927,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on the app login page",
+            "match": {
+              "location": "StepDef_Application_Login_RegExp.user_is_on_the_app_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5738625,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User logins into  app with username \"Arun\" and password \"Arun@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arun",
+                  "offset": 37
+                },
+                {
+                  "val": "Arun@123",
+                  "offset": 57
+                }
+              ],
+              "location": "StepDef_Application_Login_RegExp.user_logins_into_app_with_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195011,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "App Homepage is displayed",
+            "match": {
+              "location": "StepDef_Application_Login_RegExp.app_homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 503526,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User profile name button is displayed",
+            "match": {
+              "location": "StepDef_Application_Login_RegExp.user_profile_name_button_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@RegressTestwithBackground"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 59167,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Backkgound details are available",
+            "match": {
+              "location": "Background.backkgound_details_are_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36829,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User uses the Backkgound details",
+            "match": {
+              "location": "Background.user_uses_the_backkgound_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86940,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Background is executed",
+            "match": {
+              "location": "Background.background_is_executed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 147314,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User Photo is displayed on Application page after Successful Login",
+        "description": "",
+        "id": "application-sign-up;user-photo-is-displayed-on-application-page-after-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 438925,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterevalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114108,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on the app login page",
+            "match": {
+              "location": "StepDef_Application_Login_RegExp.user_is_on_the_app_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 427454,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User logins into  app with username \"Bob\" and password \"Bob@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bob",
+                  "offset": 37
+                },
+                {
+                  "val": "Bob@123",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDef_Application_Login_RegExp.user_logins_into_app_with_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79091,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "App Homepage is displayed",
+            "match": {
+              "location": "StepDef_Application_Login_RegExp.app_homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95392,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Photo is displayed",
+            "match": {
+              "location": "StepDef_Application_Login_RegExp.user_Photo_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@RegressTestwithBackground"
+          }
+        ]
+      }
+    ],
+    "name": "Application Sign Up",
+    "description": "\r\n// Scenarios Data Table - Different data sets but same implementation\r\n//DadtaTable api is called\r\n//DataTable.raw() is called",
+    "id": "application-sign-up",
+    "keyword": "Feature",
+    "uri": "Background+Hooks_Application_Login_RegExp.feature.feature"
+  }
+]

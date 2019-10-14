@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.675031">
+<testcase classname="Application Sign Up" name="Successful Login of Application page" time="0.673546">
+<system-out><![CDATA[Given Backkgound details are available......................................passed
+When User uses the Backkgound details.......................................passed
+Then Background is executed.................................................passed
+Given User is on the app login page.........................................passed
+When User logins into  app with username "Arun" and password "Arun@123".....passed
+Then App Homepage is displayed..............................................passed
+And User profile name button is displayed...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Sign Up" name="User Photo is displayed on Application page after Successful Login" time="0.001485">
+<system-out><![CDATA[Given Backkgound details are available......................................passed
+When User uses the Backkgound details.......................................passed
+Then Background is executed.................................................passed
+Given User is on the app login page.........................................passed
+When User logins into  app with username "Bob" and password "Bob@123".......passed
+Then App Homepage is displayed..............................................passed
+And User Photo is displayed.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
