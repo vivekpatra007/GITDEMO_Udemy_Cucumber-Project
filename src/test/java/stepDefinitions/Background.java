@@ -11,7 +11,7 @@ public class Background {
 
     @Given("^Backkgound details are available$")
     public void backkgound_details_are_available() throws Throwable {
-        
+    	System.out.println("Updated by Vivek from India");
     }
 
     @When("^User uses the Backkgound details$")
